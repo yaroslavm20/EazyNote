@@ -1,0 +1,7 @@
+.error {
+    display: none;
+}
+
+.custom-input:invalid[data-focused="true"]~.error {
+    display: block;
+}
